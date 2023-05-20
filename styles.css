@@ -4,6 +4,7 @@ body {
 * {
 	border: 1px dashed red;
 	min-height: 10px;
+	font-family: "Comfortaa";
 }
 .postcard {
 	background: white;
@@ -42,4 +43,13 @@ input {
 button {
 	background-color: rgb(190, 190, 190);
 	padding: 5px;
+	border-radius: 5px;
+}
+button:hover {
+	text-decoration: underline;
+}
+button:active {
+	background-color: rgb(123, 123, 123);
+	color: white;
+	text-decoration: none;
 }
